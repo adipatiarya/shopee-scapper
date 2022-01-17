@@ -1,7 +1,7 @@
 {
   "name": "shopee-scraper",
   "version": "2.2.3",
-  "description": "Just Simple Zippyshare Downloader Using Node.js CLI",
+  "description": "Just Simple Shopee Downloader Using Node.js CLI",
   "main": "app.js",
   "private": false,
   "scripts": {
@@ -14,13 +14,16 @@
   "keywords": [
     "zippyshare",
     "cli",
-    "downloader"
+    "downloader",
+    "ecommerce",
+    "shopee",
+    "nodejs",
+    "scraper"
   ],
   "author": "Adipatiarya",
   "license": "MIT",
   "dependencies": {
     "async": "^2.6.2",
-    "axios": "^0.19.0",
     "cheerio": "^1.0.0-rc.2",
     "cli-progress": "^2.1.1",
     "clipboardy": "^2.1.0",

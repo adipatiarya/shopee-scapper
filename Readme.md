@@ -1,13 +1,19 @@
 # Shopee Scraper
 
-Node.js Zippyshare Downloader CLI
+
 
 
 
 # Install Via NPM
 
 ```
-$ npm i -g @arya21/shopee-scraper
+$ sudo npm i -g @arya21/shopee-scraper
+
+# In terminal
+shopee-scraper --shopname <name-shop> --limit <downladimagelimit>
+
+
+shopee-scraper --shopname apple --limit 100
 ```
 
 # Install Via Github

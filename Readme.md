@@ -1,9 +1,49 @@
-install nodejs di https://nodejs.org/en/download/
-# node -v
+# Shopee Scraper
 
-# cd shopee-scrapper
+Node.js Zippyshare Downloader CLI
 
-# npm install
-node shopee.js --shopname amoraacc007 --limit 10
 
-Semua hasil download akan masuk di folder shopee-scraper
+
+# Install Via NPM
+
+```
+$ npm i -g @arya21/shopee-scraper
+```
+
+# Install Via Github
+
+Clone This Repository
+
+```
+$ git clone https://github.com/adipatiarya/shopee-scapper.git
+```
+
+Change Directory
+
+```
+$ cd shopee-scrapper
+```
+
+### Install Dependencies
+
+```
+$ npm install
+```
+
+Link To Binary
+```
+$ npm link
+```
+
+# How To Use
+
+
+## Download all images in store name
+```
+$ shopee-scraper --shopname apple --limit 10
+
+
+
+# License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details

@@ -1,30 +1,13 @@
 # Shopee Scraper
 
-
-
-
-
-# Install Via NPM
-
-```
-$ sudo npm i -g @arya21/shopee-scraper
-
-# In terminal
-shopee-scraper --shopname <name-shop> --limit <downladimagelimit>
-
-
-shopee-scraper --shopname apple --limit 100
-```
-
 # Install Via Github
 
 Clone This Repository
 
 ```
 $ git clone https://github.com/adipatiarya/shopee-scapper.git
-```
 
-Change Directory
+```
 
 ```
 $ cd shopee-scrapper
@@ -34,22 +17,19 @@ $ cd shopee-scrapper
 
 ```
 $ npm install
-```
-
-Link To Binary
-```
-$ npm link
-```
+``
 
 # How To Use
 
+## Mendownload semua product, gambar, pada lapak tertentu kemudian simpan gambar ke folder dan namai folder berdasarkan harga product
 
-## Download all images in store name
-```
-$ shopee-scraper --shopname apple --limit 10
+# Sintak
+$ node shopee.js --shopname <name-shop> --limit <downladimagelimit>
 
-
+# contoh
+$ node shopee.js --shopname apple --limit 10
 
 # License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+```
